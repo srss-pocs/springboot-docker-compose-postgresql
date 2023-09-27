@@ -1,4 +1,8 @@
-# springboot-docker-compose-postgresql
+A Simple Spring Boot docker-compose-postgresql application
+
+Check application properties file and docker-compose file
+
+Spring Boot will read database credentials from docker compose file [intern this will read from docker hub - postgres image] 
 
 
 ![image](https://github.com/srss-pocs/springboot-docker-compose-postgresql/assets/145287517/f4c9cf7c-21b4-4f2d-85ba-e40ed231f6d0)
@@ -8,7 +12,19 @@
 
 
 
+API
 
+http://localhost:8080/api/books
+
+POST
+
+{
+  "id":1, 
+"name":"D1"
+}
+
+http://localhost:8080/api/books
+GET
 
 
 
